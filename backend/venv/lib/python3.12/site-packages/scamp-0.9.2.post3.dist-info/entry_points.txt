@@ -1,0 +1,3 @@
+[pyinstaller40]
+hook-dirs = scamp.__pyinstaller:get_hook_dirs
+tests = scamp.__pyinstaller:get_PyInstaller_tests

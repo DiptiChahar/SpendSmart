@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: pymusicxml
+Version: 0.5.6
+Summary: A simple python library for exporting MusicXML.
+Home-page: https://git.sr.ht/~marcevanstein/pymusicxml
+Author: Marc Evanstein
+Author-email: marc@marcevanstein.com
+License: GNU GPL Version 3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pymusicxml
+
+_pymusicxml_ is a simple python library for exporting (and perhaps in the future, importing) MusicXML files, modelling 
+them in a hierarchical and musically logical way. Although MusicXML can simply be created using `xml.etree.ElementTree`,
+it is a confusing process: for instance, objects like tuplets and chords are created using note attributes in the 
+MusicXML standard. In _pymusicxml_, they are modelled as containers.
+
+See the examples folder for an example of an explicitly created and exported score, as well as an algorithmically 
+created and exported score.
+
+_pymusicxml_ is part of [scamp](https://sr.ht/~marcevanstein/scamp/), a Suite for Computer-Assisted Music in Python.
+
